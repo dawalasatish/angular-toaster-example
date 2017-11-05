@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp" ng-controller="myCtrl">
+	<head>
+		<title>Angular_toaster Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/1.1.0/toaster.min.css" rel="stylesheet" />
+ <link rel="stylesheet" type="text/css" href="style.css">
+ 
+	</head>
+	<body>
+	
+<toaster-container toaster-options="{'position-class': 'toast-bottom-right'}"></toaster-container>
+      <button class="btn btn-primary button-btn" ng-click="pop()">Success</button>
+		  <button class="btn btn-primary button-btn" ng-click="pop1()">Error</button>
+		  <button class="btn btn-primary button-btn" ng-click="pop2()">Warning</button>
+		  <button class="btn btn-primary button-btn" ng-click="pop3()">Notes</button>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js" ></script>
+<script src="https://code.angularjs.org/1.2.0/angular-animate.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/1.1.0/toaster.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>	
+	</body>
+</html>
